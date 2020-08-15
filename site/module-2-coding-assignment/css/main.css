@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+p {
+  padding: 20px 5px 0px 5px;
+  padding-top: 20px;
+}
+
+.information {
+    border:	2px solid black;
+    margin: 20px 20px;
+   	text-align: justify;
+   	position: relative;
+    border-radius: 0.5rem;
+    background-color: gray;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+}
+
+#plate-meal1 , #plate-meal2 , #plate-meal3 {
+  border-radius: 0.5rem;
+  padding: 5px;
+}
+
+/*--------------------------------------------------------------
+# Design responsive
+--------------------------------------------------------------*/
+
+/* PC  */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px)  {
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
