@@ -18,7 +18,7 @@ p {
    	position: relative;
     border-radius: 0.5rem;
     background-color: gray;
- }
+}
 
 span {
 	font-size: 20px;
@@ -28,11 +28,22 @@ span {
 	float: right; top :0; right: 0; margin: 0;
 }
 
+#plate-meal1{
+  background-color: green;
+}
+
+#plate-meal2{
+  background-color: red;
+}
+
+#plate-meal3{
+  background-color: blue;
+}
+
 #plate-meal1 , #plate-meal2 , #plate-meal3 {
   border-radius: 0.5rem;
   padding: 5px;
 }
-
 /*--------------------------------------------------------------
 # Design responsive
 --------------------------------------------------------------*/
