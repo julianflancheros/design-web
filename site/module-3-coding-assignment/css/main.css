@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.navbar, #header-nav {
+ background-color: #a0a0a0;
+ border-radius: 0;
+ border: 0;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+h1,h6 {
+	text-align: center;
+}
+
+p {
+  padding: 20px 5px 0px 5px;
+  padding-top: 20px;
+}
+a.nav-link.item, a.nav-link{
+  text-align: center;
+}
+
+.information {
+    border:	2px solid black;
+    margin: 10px 10px;
+   	text-align: justify;
+   	position: relative;
+    border-radius: 0.5rem;
+    background-color: gray;
+}
+
+span {
+	font-size: 20px;
+	width: 150px;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+}
+
+#plate-meal1 , #plate-meal2 , #plate-meal3 {
+  border-radius: 0.5rem;
+  padding: 5px;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+/*.navbar-nav{
+  display: none !important;
+}*/
+
+/*--------------------------------------------------------------
+# Design responsive
+--------------------------------------------------------------*/
+@media (min-width: 992px) {
+  a.nav-link{
+    color: grey !important;
+    display: none !important;
+  }
+  p.item-nav{
+    display: none !important;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+  #header-nav {
+      padding-top: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+  #header-nav {
+    padding-top: 10px;
+  }
+  .item{
+    text-align: center;
+    border-top: 2px solid black;
+  }
+  p.item-nav{
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px)  {
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+  }
+  a.nav-link.item, a.nav-link{
+    text-align: center;
+  }
+  .item{
+    border-top: 2px solid black;
+    color: black;
+  }
+}
